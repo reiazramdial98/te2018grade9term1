@@ -10,7 +10,7 @@ console.log(manny);
 
 let year = 2018
 console.log(year)
-
+  
 
 let abdal = "ayeee"
 console.log(abdal)
