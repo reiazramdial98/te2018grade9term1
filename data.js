@@ -1,5 +1,5 @@
 // Example
-let message = " shay is a hypocrite";
+let message = " shay is smart";
 console.log(message);
 
 // Type your code below!
