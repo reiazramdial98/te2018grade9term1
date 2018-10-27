@@ -1,13 +1,23 @@
-const READLINE = require("readline-sync");
-
 // **** Problem 1: R-rated ****
 // You cannot see an R-rated movie unless you are at least 18, or you are with
 // an adult. Write code that prints whether or not someone can see an
 // R-rated movie.
+
+let READLINE = require("readline-sync");
+
 console.log("*** Problem 1: R-rated ***");
 let age = READLINE.question("Enter your age: ");
-let withAdult = READLINE.question("Are you with an adult? (yes or no): ");
+let withAdult = true;  // assign a boolean
 
+if (age>=18 || withAdult){
+
+console.log("watch movie")
+
+}else{
+
+console.log("you need an adult.")
+
+}
 
 // **** Problem 2: Umbrella ****
 // You should bring an umbrella when you travel, but only if it is raining.
@@ -15,8 +25,26 @@ let withAdult = READLINE.question("Are you with an adult? (yes or no): ");
 // that's bad luck. Write code that prints if someone should bring an umbrella
 // with them.
 console.log("*** Problem 2: Umbrella ***");
-let raining = READLINE.question("Is it raining? (yes or no): ");
+let raining =READLINE.question ("Is it raining? (yes or no): ");
 let thunderstorming = READLINE.question("Is it thunderstorming? (yes or no): ");
+
+if (raining = "yes")
+
+console.log("you should probably bring a umbrella")
+
+if (thunderstorming = "yes") 
+
+console.log("Dont bring an umbrella its bad luck")
+
+
+
+
+
+
+
+
+
+
 
 
 // **** Problem 3: Monkey Trouble ****
@@ -24,8 +52,9 @@ let thunderstorming = READLINE.question("Is it thunderstorming? (yes or no): ");
 // them are smiling, or if neither are smiling. Write code that prints if we
 // are in trouble.
 console.log("*** Problem 3: Monkey Trouble ***");
-let bubbles = READLINE.question("Is Bubbles smiling? (yes or no): ");
-let spankey = READLINE.question("Is Spankey smiling? (yes or no): ");
+let bubbles = true;("Is Bubbles smiling? (yes or no): ");
+let spankey = true;("Is Spankey smiling? (yes or no): ");
+
 
 
 // **** Problem 4: First Place ****
