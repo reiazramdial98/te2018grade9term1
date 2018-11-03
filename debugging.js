@@ -1,27 +1,29 @@
 // Remove block comments when ready to debug a program.
 
-// Program #1: "Careless"
-/*
-let x == 3;
-if(x => 3 {
-  X+++;
-}} Else {
-  X =+ 2;
 
-console.log = X;
-*/
+//Program #1: "Careless"
 
-// Program #2: "Bad logic and math"
-/*
+let x = 3;
+if(x => 3){
+  x++;
+} else
+  x =+ 2;
+ console.log (x)
+
+
+//Program #2: "Bad logic and math"
+
 let money = 28;
-if(money > 50 && money <= 20) {
+if(money < 50 && money <= 20) {
   money /= 2;
 } else {
-  money /= 0;
+  money /= 1;
 }
-*/
 
-// Program #3: "And what else?"
+
+
+
+// Program #3:"And what else?"
 /*
 let num1 = READLINE.question("Enter num1: ");
 let num2 = READLINE.question("Enter num2: ");
