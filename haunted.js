@@ -26,6 +26,10 @@ if(enterHouse == "y" || enterHouse == "yes") {
   player.intellect++;
   console.log(`${player.name} decides not to open the door. However...`);
   // continue the story
+  console.log(`${player.name} is confronted with another door... Will you open the door`);
+  let door =READLINE.question("Do you want to open the door? yes or no");
+  if(door == "yes"){
 
-}
+    console.log("You found a frying pan... Good luck you'll need it");
+  }
 console.log("Thanks for playing!");
