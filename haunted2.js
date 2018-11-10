@@ -9,28 +9,40 @@ let player = {
   intellect: 0,
   strength: 0,
   charm: 0,
-  weapon: "fists",
+  weapon:"frying pan",
   item: "flashlight",
 };
+
+let mike = {
+  name: 'mike',
+  courage: 0,
+  intellect: 0,
+  strength: 0,
+  charm: 0,
+  weapon: "throwing stars",
+  item: "flashlight",
+};
+
 
 console.log();
 console.log("*** WELCOME TO THE HOUSE ***");
 player.name = READLINE.question("What is your name?: ");
 console.log(`${player.name} stand in front of a house.`);
-console.log(`${player.name} hear sounds coming from inside the house.`);
+console.log(`${mike.name} is approaching the house.`);
+console.log(`${player.name} and ${mike.name} hear sounds coming from inside the house.`);
 let enterHouse = READLINE.question("Will you enter the house? (yes or no) ");
 if(enterHouse == "yes" ) {
   player.courage++;
-  console.log(`${player.name} prepares his ${player.weapon} and opens the door...`);
+  console.log(`${player.name} and ${mike.name} prepares their ${player.weapon} and ${mike.weapon} and opens the door...`);
     // continue the story
     
-  console.log("you walk in the house, and...it looks so nice inside!");
+  console.log("you and mike walk in the house, and...it looks so nice inside!");
 
- console.log( "There is a chandelier, and a bear rug, and two sets of stairs...but, it feels weird. You walk further into the house and up the stairs.");
- console.log( "you see an illuminated room and a shadow, making groaning noises...any way, ");
+ console.log( "There is a chandelier, and a bear rug, and two sets of stairs...but, it feels weird. You and mike walk further into the house and up the stairs.");
+ console.log( "you and mike see an illuminated room and a shadow, making groaning noises...any way, ");
   console.log("you go around the house to look for supplies, and you find an apple, a sword, and a poison gem stone. As you're ");
   console.log("walking through the house, the groaning noises become louder and you hear scattered footsteps. The zombies are near!");
-
+ console.log("You and mike are getting ready to fight when.... mike becomes a zombie");
   //console.log(will you fight or hide?)and th 
   let fightHide = READLINE.question("Will you fight or hide?");
   if( fightHide == "fight" ){
