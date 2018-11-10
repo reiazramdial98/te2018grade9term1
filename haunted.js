@@ -26,7 +26,7 @@ if(enterDoor == "1" ){
 console.log(`you will now have infinite life`);
 }
 if(enterDoor == "2"){
-console.log(`You will now be tourchered for the rest of your life`);
+console.log(`You will now be tortured for the rest of your life`);
 }
 if(enterDoor == "3"){
 console.log(`You will now be to go home SPEAK NOTHING OF THIS`);
@@ -40,7 +40,13 @@ console.log(`You will now be to go home SPEAK NOTHING OF THIS`);
   if(door == "yes"){
 
     console.log("You found a frying pan... Good luck you'll need it");
-  }
+  console.
+
+
+
+
+
+
 
 console.log("Thanks for playing!");
 }
