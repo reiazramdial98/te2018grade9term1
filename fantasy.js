@@ -2,13 +2,13 @@
 const READLINE = require("readline-sync");
 
 // global variables
-let firstName;
-let lastName;
-let momMaidenName;
-let cityBorn;
-let dreamCar;
-let street;
-let fantasyName;
+let firstName:Reiaz;
+let lastName:Ramdial;
+let momMaidenName:;
+let cityBorn:;
+let dreamCar:;
+let street:;
+let fantasyName:;
 
 /******************************************************************************
                                   getNewFirstName()
